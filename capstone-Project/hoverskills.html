@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        .skills {
+            margin-top: 20px;
+        }
+
+        .skills h2 {
+            margin-top: 0;
+        }
+
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .skill {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+        }
+
+        .skill:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+    <div className="skills">
+        <h2>Skills</h2>
+        <div className="skills-container">
+            <ul className="skills-list">
+                <li className="skill">HTML 5</li>
+                <li className="skill">CSS3</li>
+                <li className="skill">Bootstrap 5</li>
+                <li className="skill">Node.js</li>
+                <li className="skill">JavaScript</li>
+                <li className="skill">MongoDB/noSQL</li>
+                <li className="skill">React/Redux</li>
+                <li className="skill">Express</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
